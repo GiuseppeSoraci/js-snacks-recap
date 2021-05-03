@@ -1,0 +1,33 @@
+/* GENERAL */
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+ul {
+    text-align: center;
+    list-style: none;   
+}
+
+li {
+    display: inline;
+}
+
+li:last-child{
+    cursor: pointer;
+}
+
+.red{
+    color: red;
+}
